@@ -476,3 +476,32 @@ $(window).on ('load', function (){ // makes sure the whole site is loaded
     });  //End On Load Function
 
 })(jQuery);
+
+
+// enquiry form code
+document.getElementById("enquiryForm").addEventListener("submit", function(e) {
+    e.preventDefault();
+
+    let name = document.getElementById("name").value.trim();
+    let email = document.getElementById("email").value.trim();
+    let phone = document.getElementById("phone").value.trim();
+    let message = document.getElementById("message").value.trim();
+    let successMsg = document.getElementById("successMsg");
+
+    if(name === "" || email === "" || phone === "" || message === "") {
+        alert("Please fill all fields");
+        return;
+    }
+
+    // Simple success message
+    successMsg.innerText = "Enquiry submitted successfully!";
+    
+    // Reset form
+    document.getElementById("enquiryForm").reset();
+});
+
+// whataspp widget
+window.addEventListener("load", function() {
+    const widget = document.getElementById("whatsapp-widget");
+    widget.style.display = "block";
+});
