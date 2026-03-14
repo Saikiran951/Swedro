@@ -32,6 +32,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style.min.css" media="all">
 	<!-- responsive style sheet -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="all">
+	<link rel="stylesheet" href="css/style.css">
 
 	<!-- Fix Internet Explorer ______________________________________-->
 	<!--[if lt IE 9]>
@@ -48,7 +49,7 @@
 			==================================================== -->
 		<div id="preloader">
 			<div id="ctn-preloader" class="ctn-preloader">
-				<div class="icon"><img src="images/loader.svg" alt="" class="m-auto d-block" width="60"></div>
+				<div class="icon"><img src="images/fav-icon/icon.png" alt="" class="m-auto d-block" width="60"></div>
 				<div class="txt-loading">
 					<span data-text-preloader="S" class="letters-loading">
 						s
@@ -87,7 +88,8 @@
 					<ul class="style-none d-none d-md-flex contact-info">
 						<li class="d-flex align-items-center"><img src="images/lazy.svg"
 								data-src="images/icon/icon_14.svg" alt="" class="lazy-img icon me-2"> <a
-								href="mailto:babuninc@company.com" class="fw-500">babuninc@company.com</a></li>
+								href="mailto:info@swedro.com" class="fw-500">info@swedro.com</a></li>
+						</li>
 						<li class="d-flex align-items-center"><img src="images/lazy.svg"
 								data-src="images/icon/icon_15.svg" alt="" class="lazy-img icon me-2"> <a
 								href="tel:+757 699-4478" class="fw-500">+757 699-4478</a></li>
@@ -99,7 +101,7 @@
 					<div class="d-flex align-items-center">
 						<div class="logo order-lg-0">
 							<a href="index.html" class="d-flex align-items-center">
-								<img src="images/logo/logo_02.svg" alt="">
+								<img src="images/logo/logo_02.svg" alt="" width="250px">
 							</a>
 						</div>
 						<!-- logo -->
@@ -109,7 +111,7 @@
 								<li class="d-none d-md-inline-block ms-3 ms-lg-5 me-3 me-lg-0">
 									<a href="#" data-bs-toggle="modal" data-bs-target="#loginModal"
 										class="signup-btn-one icon-link">
-										<span>Enroll Now</span>
+										<span>Sign Up</span>
 										<!-- <div class="icon rounded-circle d-flex align-items-center justify-content-center"><i class="bi bi-arrow-right"></i></div> -->
 									</a>
 								</li>
@@ -138,7 +140,8 @@
 										<ul class="dropdown-menu">
 											<li><a href="about-us.html" class="dropdown-item"><span>About
 													</span></a></li>
-											<li><a href="#" class="dropdown-item"><span>Founder and mentor</span></a>
+											<li><a href="mentor-page.html" class="dropdown-item"><span>Founder and
+														mentor</span></a>
 											</li>
 										</ul>
 
@@ -159,25 +162,20 @@
 											<li><a href="stock-market-training-and-workshop-framework.html"
 													class="dropdown-item"><span>Workshops & Stock Market
 														Training</span></a></li>
-											<li><a href="#" class="dropdown-item"><span>Market Analysis</span></a></li>
-											<li><a href="#" class="dropdown-item"><span>Strategy Development</span></a>
+											<li><a href="stock-market-analysis-training-in-india.html"
+													class="dropdown-item"><span>Market Analysis</span></a></li>
+											<li><a href="trading-strategy-development-in-india.html"
+													class="dropdown-item"><span>Strategy Development</span></a>
 											</li>
 										</ul>
 
 									</li>
 									<li class="nav-item dropdown">
-										<a class="nav-link dropdown-toggle" href="#" role="button"
-											data-bs-toggle="dropdown" data-bs-auto-close="outside"
-											aria-expanded="false">Blog
+									<li class="nav-item dropdown">
+										<a class="nav-link dropdown-toggle" href="blog-v2.html" role="button">Blog
 										</a>
-										<ul class="dropdown-menu">
-											<li><a href="blog-v1.html" class="dropdown-item"><span>Blog List</span></a>
-											</li>
-											<li><a href="blog-v2.html" class="dropdown-item"><span>Blog Grid</span></a>
-											</li>
-											<li><a href="blog-details.html" class="dropdown-item"><span>Blog
-														Details</span></a></li>
-										</ul>
+									</li>
+
 									</li>
 									<li class="nav-item">
 										<a class="nav-link" href="contact.html" role="button">Contact Us</a>
@@ -219,12 +217,12 @@
 		============================================== 
 		-->
 		<div class="inner-banner-one pt-225 lg-pt-200 md-pt-150 pb-100 md-pb-70 position-relative"
-			style="background-image: url(images/media/img_26.jpg);">
+			style="background-image: url(images/media/img_32.jpg);">
 			<div class="container position-relative">
 				<div class="row align-items-center">
 					<div class="col-lg-6">
-						<h1 class="hero-heading d-inline-block position-relative me-xl-4">We’r top rated company <img
-								src="images/shape/shape_25.svg" alt=""></h1>
+						<h1 class="hero-heading d-inline-block position-relative me-xl-4" style="color: white;">We’r top
+							rated company </h1>
 					</div>
 					<div class="col-xl-4 col-lg-5 ms-auto">
 						<p class="text-white text-lg mb-70 lg-mb-40">Navigating Your Financial Growth With Experience &
@@ -300,7 +298,7 @@
 						class="lazy-img shapes shape_01">
 				</div>
 
-				<div class="counter-wrapper mt-80 lg-mt-20">
+				<div class="counter-wrapper mt-80 lg-mt-20" style="display: none;">
 					<div class="row">
 						<div class="col-md-3 col-6">
 							<div class="counter-block-two text-center text-md-start mt-35 wow fadeInUp">
@@ -311,7 +309,7 @@
 						</div>
 						<div class="col-md-3 col-6">
 							<div class="counter-block-two text-center mt-35  wow fadeInUp" data-wow-delay="0.1s">
-								<div class="main-count fw-500">$<span class="counter">1.3</span>b+</div>
+								<div class="main-count fw-500">₹<span class="counter">1.3</span>b+</div>
 								<p class="m0 text-md">Cumulative trading volume</p>
 							</div>
 							<!-- /.counter-block-two -->
@@ -326,7 +324,7 @@
 						<div class="col-md-3 col-6">
 							<div class="counter-block-two text-center text-md-end mt-35  wow fadeInUp"
 								data-wow-delay="0.3s">
-								<div class="main-count fw-500">$<span class="counter">1.2</span>%</div>
+								<div class="main-count fw-500">₹<span class="counter">1.2</span>%</div>
 								<p class="m0 text-md">Low interest rate</p>
 							</div>
 							<!-- /.counter-block-two -->
@@ -403,7 +401,7 @@
 						<p class="text-lg">Learn to Trade Multiple Markets
 							Our mentorship covers all major financial markets
 						</p>
-						<a href="service-v1.html" class="btn-three icon-link">
+						<a href="service.html" class="btn-three icon-link">
 							<span>See All Services</span>
 							<img src="images/lazy.svg" data-src="images/icon/icon_09.svg" alt=""
 								class="lazy-img icon ms-1">
@@ -447,7 +445,7 @@
 								</div>
 								<div class="col-xl-6 col-sm-7">
 									<div class="counter-block-one mt-20">
-										<div class="main-count fw-bold">$<span class="counter">1.3</span>b+</div>
+										<div class="main-count fw-bold">₹<span class="counter">1.3</span>b+</div>
 										<p class="m0">Cumulative trading volume</p>
 									</div>
 									<!-- /.counter-block-one -->
@@ -459,11 +457,11 @@
 					<div class="col-xxl-7 col-lg-6 wow fadeInLeft">
 						<div
 							class="media-list-item me-auto pe-xxl-5 pe-4 ps-xxl-5 ps-4 pb-35 md-mt-40 d-flex align-items-end">
-							<ul class="style-none">
+							<!-- <ul class="style-none">
 								<li>Mobile app easy management & access</li>
 								<li>Ton’s of features for handle the card easily</li>
 								<li>Strong security system.</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
@@ -478,7 +476,7 @@
 			Feedback Section One
 		============================================== 
 		-->
-		<div class="feedback-section-one top-border pt-80 pb-80">
+		<div class="feedback-section-one top-border pt-80 pb-80" style="display: none;">
 			<div class="container">
 				<div class="position-relative">
 					<div class="title-one sm-mb-40">
@@ -573,7 +571,7 @@
 			Partner Logo
 		=====================================================
 		-->
-		<div class="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40">
+		<div class="partner-logo-one pt-80 lg-pt-40 pb-80 lg-pb-40" style="display: none;">
 			<div class="container">
 				<div class="partner-slider-one">
 					<div class="item">
@@ -619,7 +617,8 @@
 			BLock Feature Three
 		=====================================================
 		-->
-		<div class="block-feature-three blog-section-four position-relative mt-180 lg-mt-80 mb-180 lg-mb-80">
+		<div class="block-feature-three blog-section-four position-relative mt-180 lg-mt-80 mb-180 lg-mb-80"
+			style="display: none;">
 			<div class="container">
 				<div class="position-relative">
 					<div class="row">
@@ -700,7 +699,7 @@
 						<!-- /.title-one -->
 						<p class="text-lg m0 text-white opacity-75">This program is open to beginners and aspiring
 							traders who want to learn the markets with clarity, structure, and discipline. It is ideal
-							for individuals with little or no  prior experience, as well as traders seeking a systematic,
+							for individuals with little or no prior experience, as well as traders seeking a systematic,
 							risk-aware approach instead of guesswork or tips.</p>
 					</div>
 					<div class="col-lg-4 col-md-3">
@@ -713,6 +712,15 @@
 			</div>
 		</div>
 		<!-- /.fancy-banner-three -->
+		<!-- ======================================
+		 Whatsapp- widget
+		 =========================-->
+		<div id="whatsapp-widget">
+			<a href="https://wa.me/919999999999?text=Hello%20I%20have%20an%20enquiry" target="_blank">
+				<img src="https://cdn-icons-png.flaticon.com/512/220/220236.png" alt="WhatsApp Chat">
+			</a>
+		</div>
+		<!-- WhatsApp Widget End -->
 
 
 
@@ -721,87 +729,74 @@
 			Footer Three
 		=====================================================
 		-->
-		<div class="footer-three">
+		<div class="footer-two">
 			<div class="container">
-				<div class="inner-wrapper position-relative">
-					<div class="row justify-content-between">
-						<div class="col-lg-4 footer-intro mb-30">
-							<div
-								class="round-bg color-two rounded-circle text-center d-flex flex-column align-items-center justify-content-center">
-								<div class="logo mb-15">
+				<div class="bg-wrapper position-relative">
+					<div class="container">
+						<div class="row justify-content-between">
+							<div class="col-xl-3 col-lg-4 footer-intro mb-30">
+								<div class="logo mb-35 md-mb-20">
 									<a href="index.html">
-										<img src="images/logo/logo_02.svg" alt="">
+										<img src="images/logo/logo_02.svg" alt="" width="200px">
 									</a>
 								</div>
 								<!-- logo -->
-								<p class="lh-sm mb-45 lg-mb-30">2190 Urban Terrace, Mirpur, <br>Licensed in 50 states.
+								<p class="lh-sm mb-40 md-mb-20">“Clarity in markets. Discipline in trading. Swedro –
+									Structured stock market education.”
 								</p>
-								<p class="m0"><a href="#">+757 699-4478</a></p>
+								<ul class="style-none d-flex align-items-center social-icon">
+									<li><a href="#"><i class="bi bi-facebook"></i></a></li>
+									<li><a href="#"><i class="bi bi-youtube"></i></a></li>
+									<li><a
+											href="https://www.instagram.com/im_sharan.v?igsh=MTd1MnR0d3hyamc4dw%3D%3D&utm_source=qr"><i
+												class="bi bi-instagram"></i></a></li>
+									<li><a
+											href="https://www.linkedin.com/in/sharan-v-178572237?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i
+												class="bi bi-linkedin"></i></a></li>
+									<li><a href="#"><i class="bi bi-twitter"></i></a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-sm-4 mb-20">
+								<h5 class="footer-title">Our Services</h5>
+								<ul class="footer-nav-link style-none">
+									<li><a href="equity-trading-guidance.html">Equity Trading Guidance</a></li>
+									<li><a href="options-selling-framework.html">Options selling strategies</a></li>
+									<li><a href="personal-mentorship-framework.html">Personal Mentorship</a></li>
+									<li><a href="stock-market-training-and-workshop-framework.html">Workshops &
+											Stock Market Training</a></li>
+									<li><a href="stock-market-analysis-training-in-india.html">Market Analysis</a>
+									</li>
+									<li><a href="trading-strategy-development-in-india.html">Strategy
+											Development</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-2 col-sm-4 mb-20">
+								<h5 class="footer-title">Company</h5>
+								<ul class="footer-nav-link style-none">
+									<li><a href="about-us.html">About us</a></li>
+									<li><a href="blog-v2.html">Blogs</a></li>
+									<li><a href="faq.html">FAQ’s</a></li>
+									<li><a href="contact.html">Contact</a></li>
+								</ul>
+							</div>
+							<div class="col-xxl-2 col-lg-3 col-sm-4 mb-20">
+								<h5 class="footer-title">Support</h5>
+								<ul class="footer-nav-link style-none">
+									<li><a href="terms-and-conditions.html">Terms & conditions</a></li>
+									<li><a href="privacy-policy.html">Privacy Policy</a></li>
+								</ul>
 							</div>
 						</div>
-						<div class="col-lg-2 col-sm-4 mb-20">
-							<h5 class="footer-title">Links</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="index.html">Home</a></li>
-								<li><a href="pricing.html">Pricing Plan</a></li>
-								<li><a href="about-us-v1.html">About us</a></li>
-								<li><a href="service-v1.html">Our services</a></li>
-								<li><a href="project-v2.html">Portfolio</a></li>
-								<li><a href="service.html">Features</a></li>
-							</ul>
-						</div>
-						<div class="col-lg-2 col-sm-4 mb-20">
-							<h5 class="footer-title">Company</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="about-us-v2.html">About us</a></li>
-								<li><a href="blog-v2.html">Blogs</a></li>
-								<li><a href="faq.html">FAQ’s</a></li>
-								<li><a href="contact.html">Contact</a></li>
-							</ul>
-						</div>
-						<div class="col-xxl-2 col-lg-3 col-sm-4 mb-20">
-							<h5 class="footer-title">Support</h5>
-							<ul class="footer-nav-link style-none">
-								<li><a href="contact.html">Terms of use</a></li>
-								<li><a href="contact.html">Terms & conditions</a></li>
-								<li><a href="contact.html">Privacy</a></li>
-								<li><a href="contact.html">Cookie policy</a></li>
-							</ul>
-						</div>
+						<!-- <div class="copyright text-center">Copyright @2026 www.swedro.com</div> -->
 					</div>
-					<img src="images/lazy.svg" data-src="images/shape/shape_38.svg" alt=""
+					<img src="images/lazy.svg" data-src="images/shape/shape_06.svg" alt=""
 						class="lazy-img shapes shape_01">
-					<img src="images/lazy.svg" data-src="images/shape/shape_39.svg" alt=""
+					<img src="images/lazy.svg" data-src="images/shape/shape_06.svg" alt=""
 						class="lazy-img shapes shape_02">
-				</div> <!-- /.inner-wrapper -->
-			</div>
-			<div class="container">
-				<div class="bottom-footer">
-					<div class="row">
-						<div class="col-xl-4 col-lg-3 order-lg-3 mb-15">
-							<ul
-								class="style-none d-flex align-items-center justify-content-center justify-content-lg-end social-icon">
-								<li><a href="#"><i class="bi bi-facebook"></i></a></li>
-								<li><a href="#"><i class="bi bi-dribbble"></i></a></li>
-								<li><a href="#"><i class="bi bi-instagram"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-xl-4 col-lg-6 order-lg-2 mb-15">
-							<ul class="style-none bottom-nav d-flex justify-content-center order-lg-last">
-								<li><a href="contact.html">Privacy & Terms</a></li>
-								<li><a href="contact.html">Cookies</a></li>
-								<li><a href="contact.html">Contact Us</a></li>
-							</ul>
-						</div>
-						<div class="col-xl-4 col-lg-3 order-lg-1 mb-15">
-							<div class="copyright text-center text-lg-start order-lg-first">Copyright @2023 babun inc.
-							</div>
-						</div>
-					</div>
 				</div>
-				<!-- /.bottom-footer -->
+				<!-- /.bg-wrapper -->
 			</div>
-		</div> <!-- /.footer-three -->
+		</div> <!-- /.footer-two -->
 
 
 		<!-- Modal -->

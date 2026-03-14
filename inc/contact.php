@@ -4,10 +4,10 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'Babun <demo@domain.com>';
+$from = 'Swedro <demo@domain.com>';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Babun contact form <demo@domain.com>'; // Add Your emnail here
+$sendTo = 'Swedro contact form <info@swedro.com>'; // Add Your emnail here
 
 // subject of the email
 $subject = 'New message from Babun';
@@ -73,3 +73,10 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 else {
     echo $responseArray['message'];
 }
+
+
+// if-else-if{
+//     if(!empty($server['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest') {
+//         $encoded = json_encode($responseArray);
+//     }
+// }
