@@ -3237,7 +3237,7 @@ iframe {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background: #174034;
+  background: #0f2051af;
   mix-blend-mode: darken;
 }
 .fancy-banner-three .title-one h2 {
@@ -11067,17 +11067,17 @@ body.compensate-for-scrollbar {
 
 
 /*==========================================
-enquiry form style
+Enrollment Form style
 
 ==========================================*/
 
 .enquiry-container {
-    max-width: 500px;
+    max-width: 650px;
     margin: 40px auto;
     padding: 25px;
-    background: #ffffff;
+    /* background: #ffffff; */
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
 }
 
 .enquiry-container h2 {
@@ -11104,11 +11104,12 @@ enquiry form style
     width: 100%;
     margin-top: 18px;
     padding: 12px;
-    background-color: #2e7d32;
-    color: white;
+    background: linear-gradient(90deg, #5A7BFF 0%, #3FA9F5 50%, #34CFA3 100%);
+    color: black;
+    font-weight: bold;
     border: none;
-    border-radius: 6px;
-    font-size: 16px;
+    border-radius: 15px;
+    font-size: 20px;
     cursor: pointer;
 }
 

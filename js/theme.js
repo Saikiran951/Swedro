@@ -478,7 +478,7 @@ $(window).on ('load', function (){ // makes sure the whole site is loaded
 })(jQuery);
 
 
-// enquiry form code
+// Enrollment Form code
 document.getElementById("enquiryForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
