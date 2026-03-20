@@ -322,7 +322,7 @@ hr {
   text-align: center;
   border-radius: 50px;
   color: #fff;
-  background-color: #102051;
+  background: linear-gradient(90deg, #5A7BFF 0%, #3FA9F5 50%, #34CFA3 100%);
   transition: all 0.3s ease-in-out 0s;
 }
 .btn-four:hover {
@@ -693,7 +693,7 @@ hr {
   font-size: 72px;
   font-weight: 700;
   line-height: 1.027em;
-  color: #0E3E2F;
+  color: #011D3F;
 }
 .title-two h2 span {
   color: #E6FD5A;
@@ -4293,8 +4293,8 @@ iframe {
 }
 .text-feature-one .line-wrapper .shape_01 {
   width: 48px;
-  bottom: 12%;
-  left: 32%;
+  bottom: 8%;
+  left: 42%;
   animation: rotated 48s infinite linear;
 }
 .text-feature-one .card-style-three {
@@ -10165,7 +10165,7 @@ body.compensate-for-scrollbar {
 
 .fancybox-container {
   backface-visibility: hidden;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif; */
   height: 100%;
   left: 0;
   position: fixed;
@@ -11416,7 +11416,7 @@ enquiry form style
   padding: 80px 20px;
   background: #0f172a;
   text-align: center;
-  font-family: Arial, sans-serif;
+  /* font-family: Arial, sans-serif; */
 }
 
 .sv-price-container {
@@ -11446,7 +11446,7 @@ enquiry form style
   border-radius: 18px;
   padding: 40px 30px;
   position: relative;
-  border: 1px solid rgba(255, 60, 100, 0.4);
+  border: 1px solid rgb(61,132,196);
   box-shadow: 0 0 40px rgba(255, 60, 100, 0.15);
   color: #fff;
 }
@@ -11547,3 +11547,6 @@ enquiry form style
 
 
 
+.col-lg-6-1{
+  width:100% !important;
+}
