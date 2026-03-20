@@ -11296,7 +11296,7 @@ enquiry form style
   background: #ffffff;
   padding: 14px 18px;
   border-radius: 10px;
-  font-size: 14px;
+  font-size: 16px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   position: relative;
   padding-left: 38px;
@@ -11334,6 +11334,9 @@ enquiry form style
   box-shadow: 0 15px 40px rgba(0,0,0,0.08);
   text-align: center;
 }
+.sv-mentor-avatar img{
+  border-radius: 20px;
+}
 
 .sv-mentor-avatar {
   width:auto;
@@ -11350,13 +11353,14 @@ enquiry form style
 }
 
 .sv-mentor-card h3 {
-  font-size: 22px;
+  font-size: 32px;
+  font-weight: 700;
   margin-bottom: 8px;
 }
 
 .sv-mentor-role {
-  color: #35C4C2;
-  font-size: 14px;
+  color: #0F2051;
+  font-size: 16px;
   margin-bottom: 25px;
 }
 
