@@ -4448,7 +4448,7 @@ iframe {
 }
 
 .text-feature-five .bg-wrapper {
-  background: #FFF2AC;
+  background: #3d84c4;
 }
 .text-feature-five li {
   display: inline-block;
@@ -4466,7 +4466,7 @@ iframe {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #FFF2AC;
+  background: #3d84c4;
   left: 10px;
   top: 7px;
   transition: all 0.2s ease-in-out 0s;
@@ -6033,7 +6033,7 @@ iframe {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background: #FFF2AC;
+  background: #3d84c4;
   left: 0;
   top: 3px;
 }
